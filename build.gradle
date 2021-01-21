@@ -19,8 +19,8 @@ repositories {
 }
 
 dependencies {
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '2.4.2'
 	implementation 'org.json:json:20171018'
-	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
